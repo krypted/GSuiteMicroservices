@@ -1,0 +1,8 @@
+Google Cloud Function meant to respond to a webhook
+
+Takes an action to set a device into approve or deny state
+
+Set CustomerID, ResourceID, and EMAIL_ACCOUNT for your GSuite account before using. 
+
+To setup a GSuite Account for Google Functions, see: http://krypted.com/cloud/setup-google-cloud-functions/
+To obtain the customer ID: http://krypted.com/uncategorized/get-your-customerid-from-g-suite/
