@@ -1,3 +1,9 @@
+#
+# Google Cloud Function meant to respond to a webhook
+# Takes an action to set a device into approve or deny state
+# Set CustomerID, ResourceID, and EMAIL_ACCOUNT for your GSuite account before using
+#
+
 from google.oauth2 import service_account
 import googleapiclient.discovery
 
